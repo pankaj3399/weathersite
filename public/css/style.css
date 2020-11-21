@@ -247,4 +247,8 @@ footer p {
 	.main_layer .middle_layer .fa {
 		font-size: 4rem;
 	}
+
+	sup {
+		font-size: 4rem;
+	}
 }

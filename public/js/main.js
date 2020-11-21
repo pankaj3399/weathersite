@@ -16,7 +16,7 @@ const getInfo = async (e) => {
 		let url = `api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=e568d7d5cac4bb3ac85f355b7b989fd5`;
 		//console.log(url);
 		const response = await fetch(
-			`https://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=e568d7d5cac4bb3ac85f355b7b989fd5`,
+			`https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=e568d7d5cac4bb3ac85f355b7b989fd5`,
 			{
 				mode: 'cors',
 				headers: {
